@@ -3,36 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title>Hoang Gia Minh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    /* Reset default margins */
-    body { margin: 0; font-family: Arial, sans-serif; }
-    /* Menubar styling */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9f9f9;
+    }
     .navbar {
-      background: #2d2d2d;
+      background: #232c3d;
       overflow: hidden;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
     }
     .navbar a {
       float: left;
-      color: #f2f2f2;
+      color: #f3f3f3;
       text-align: center;
-      padding: 16px 20px;
+      padding: 16px 24px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 18px;
+      letter-spacing: 0.5px;
       transition: background 0.2s;
     }
     .navbar a:hover {
-      background: #575757;
+      background: #33415c;
     }
     .container {
-      padding: 30px;
-      max-width: 800px;
-      margin: 40px auto 0 auto;
+      max-width: 520px;
+      margin: 56px auto 0 auto;
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+      padding: 36px 32px 32px 32px;
+      text-align: center;
+    }
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      border: 4px solid #e0e4ec;
+    }
+    h1 {
+      margin: 8px 0 14px 0;
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: #1a2333;
+    }
+    .bio {
+      font-size: 1.08rem;
+      color: #373e4d;
+      margin-bottom: 18px;
+    }
+    .icons {
+      margin-top: 18px;
+    }
+    .icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #27304c;
+      font-size: 1.7rem;
+      vertical-align: middle;
+      transition: color 0.15s;
+    }
+    .icons a:hover { color: #347dbe; }
+    @media (max-width: 600px) {
+      .container {
+        padding: 18px 6vw;
+      }
+      .navbar a { padding: 14px 10px; font-size: 17px;}
     }
   </style>
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
   <div class="navbar">
@@ -40,9 +85,24 @@
     <a href="publication.html">Publication</a>
   </div>
   <div class="container">
-    <h1>Hello! I'm Hoang Gia Minh</h1>
-    <p>Welcome to my personal homepage.</p>
-    <p>Contact: giaminh2022@gm.gist.ac.kr</p>
+    <img src="avatar.jpg" alt="Profile Photo" class="profile-img">
+    <h1>Your Name</h1>
+    <div class="bio">
+      <b>Postdoctoral Researcher</b> at <i>Mayo Clinic</i> <br>
+      <span style="font-size:0.98em;">
+        <i>AI for medical imaging • Computational modeling • Disease diagnosis</i>
+      </span>
+      <br><br>
+      Welcome to my homepage! I work at the intersection of <b>AI</b> and <b>biomedical engineering</b>.<br>
+      Email: <b>your@email.com</b>
+    </div>
+    <div class="icons">
+      <a href="mailto:your@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://scholar.google.com/" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
   </div>
 </body>
 </html>
