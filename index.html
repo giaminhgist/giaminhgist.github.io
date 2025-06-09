@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hoang Gia Minh</title>
+  <title>Your Name</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -55,10 +55,11 @@
     .bio {
       font-size: 1.08rem;
       color: #373e4d;
-      margin-bottom: 18px;
+      margin-bottom: 10px;
     }
     .icons {
-      margin-top: 18px;
+      margin-top: 8px;
+      margin-bottom: 18px;
     }
     .icons a {
       margin: 0 10px;
@@ -69,6 +70,25 @@
       transition: color 0.15s;
     }
     .icons a:hover { color: #347dbe; }
+    hr {
+      margin: 28px 0 20px 0;
+      border: none;
+      border-top: 1.5px solid #e4e8f0;
+    }
+    .news-title {
+      text-align:left; 
+      font-size:1.2em; 
+      color:#1a2333; 
+      margin-bottom:12px; 
+      margin-top:0;
+    }
+    .news-list {
+      text-align:left; 
+      color:#444; 
+      font-size:1em; 
+      line-height:1.6;
+      padding-left: 18px;
+    }
     @media (max-width: 600px) {
       .container {
         padding: 18px 6vw;
@@ -84,7 +104,7 @@
     <a href="index.html">Home</a>
     <a href="publication.html">Publication</a>
   </div>
-<div class="container">
+  <div class="container">
     <img src="avatar.jpg" alt="Profile Photo" class="profile-img">
     <h1>Your Name</h1>
     <div class="bio">
@@ -97,24 +117,20 @@
       Email: <b>your@email.com</b>
     </div>
     <div class="icons">
-      <!-- ... social icons ... -->
+      <a href="mailto:giaminh2022@gm.gist.ac.kr" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=Lo1YsfcAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="https://www.linkedin.com/in/minh-hoang-gia/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/giaminh9698" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/giaminhgist" title="GitHub"><i class="fab fa-github"></i></a>
     </div>
-    <hr style="margin:32px 0 24px 0;">
-    <h2 style="text-align:left; font-size:1.2em; color:#1a2333; margin-bottom:12px; margin-top:0;">News</h2>
-    <ul style="text-align:left; color:#444; font-size:1em; line-height:1.6;">
+    <hr>
+    <h2 class="news-title">News</h2>
+    <ul class="news-list">
       <li><b>Jun 2025:</b> Joined Mayo Clinic as a Postdoctoral Researcher!</li>
       <li><b>May 2025:</b> Defended Ph.D. dissertation at GIST.</li>
       <li><b>Apr 2025:</b> Paper accepted at MICCAI 2025.</li>
       <!-- Add more news items as you wish -->
     </ul>
-  </div>
-    <div class="icons">
-      <a href="mailto:your@email.com" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-      <a href="https://linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/" title="GitHub"><i class="fab fa-github"></i></a>
-    </div>
   </div>
 </body>
 </html>
