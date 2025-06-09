@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hoang Gia Minh</title>
+  <title>Your Name</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -104,19 +104,41 @@
       margin-bottom: 7px;
       list-style: disc inside;
     }
+    /* Publications section */
+    .pub-section {
+      width: 100%;
+      margin-top: 32px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pub-section h2 {
+      font-size: 1.15em;
+      color: #23315a;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e4e8f0;
+      padding-bottom: 4px;
+      font-weight: bold;
+      width: 100%;
+      max-width: 780px;
+      text-align: left;
+    }
+    .pub-section ol {
+      margin-left: 24px;
+      margin-bottom: 18px;
+      max-width: 780px;
+      width: 100%;
+    }
     @media (max-width: 900px) {
-      .container {
-        padding: 24px 6vw;
-      }
+      .container { padding: 24px 6vw; }
       .navbar a { padding: 12px 8px; font-size: 17px;}
       .profile-img { width: 120px; height: 120px;}
     }
     @media (max-width: 600px) {
-      .container {
-        padding: 14px 2vw;
-      }
-      h1, .bio, .icons, .news-title, .news-list { text-align: center !important; }
-      .news-list { display: block; }
+      .container { padding: 14px 2vw; }
+      h1 { font-size: 1.3rem;}
+      .pub-section h2, .pub-section ol { max-width: 100%; }
     }
   </style>
   <!-- Font Awesome for social icons -->
@@ -158,6 +180,37 @@
       <li><b>Aug 2019:</b> Joined <a href="https://bmse.gist.ac.kr/biophotonics/" target="_blank" style="color:#2566c5;text-decoration:underline;">TEDi Lab</a>, Gwangju Institute of Science and Technology, South Korea as Master Student.</li>
       <!-- Add more news items as you wish -->
     </ul>
+    <!-- Publications section starts here -->
+    <div class="pub-section">
+      <h2>Journal/AI Conference Publication</h2>
+      <ol>
+        <li>
+          Author1, Author2, <b>Your Name</b>, ...  
+          "<i>Title of Your Paper</i>."  
+          <b>Journal Name</b>, vol. XX, no. XX, pages, year.  
+          [<a href="https://doi.org/xxxxxx" target="_blank">PDF/DOI</a>]
+        </li>
+        <li>
+          Author1, <b>Your Name</b>, ...  
+          "<i>Another Paper Title</i>."  
+          <b>Conference Name (Year)</b>.  
+          [<a href="https://arxiv.org/abs/xxxxxx" target="_blank">arXiv</a>]
+        </li>
+        <!-- Add more as needed -->
+      </ol>
+      <h2>Medical Conference Talk</h2>
+      <ol>
+        <li>
+          <b>Your Name</b>, "Title of Your Talk,"  
+          <b>Conference Name</b>, Location, Year.
+        </li>
+        <li>
+          <b>Your Name</b>, "Another Talk Title,"  
+          <b>Medical Conference</b>, Location, Year.
+        </li>
+        <!-- Add more as needed -->
+      </ol>
+    </div>
   </div>
 </body>
 </html>
