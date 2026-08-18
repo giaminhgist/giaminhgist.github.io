@@ -20,6 +20,7 @@ tasks.py
 todos.py
 CLAUDE.md
 requirements.txt
+mcp_tools.py
 
 # Logs / temporary files
 *.log
