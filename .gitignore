@@ -21,6 +21,7 @@ todos.py
 CLAUDE.md
 requirements.txt
 mcp_tools.py
+skills/
 
 # Logs / temporary files
 *.log
