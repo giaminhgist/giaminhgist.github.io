@@ -1,34 +1,13 @@
-    The About part in index.html should be revised so that it contain
-    Self Introduction and Contact Infor 
+Revise code for following:
+- Update file link in cv.html to /assets/files/GiaMinhHoang_CV.pdf
+- Update publication.html with thumnail imgae is .jpg, .gif, .webp 
+the list of publication with publication-placeholder is 
+publication-placeholder-1. Tam Dao*, Thanh T. Nguyen*, Gia Minh Hoang*, Junhyeon Park, Yunju Jo, Thach Hoang Ngoc, Diep Hong Pho, Dien Tran Minh, Emma Anh Ton, Sunjae Lee, Hyun Jin Kim, Vu Chi Dung, Jae Gwan Kim, Dongryeol Ryu. "Nuclear enlargement as a histological hallmark of skeletal muscle aging, revealed by deep learning-driven analysis and validated in inflammatory myopathies.” Aging Cell, June 2026. 
+publication-placeholder-2. Gia Minh Hoang and Jae Gwan Kim. "High‐generalizability Deep Learning Framework for Early Detection of Mild Cognitive Impairment Progression to Alzheimer's Disease." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101596 
+publication-placeholder-3. Gia Minh Hoang and Jae Gwan Kim. "Explainable Deep Learning for Multi-Cohort Alzheimer's Disease Classification using MRI: Insights into Pathological Brain Regions." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101859 
+publication-placeholder-4. Gia Minh Hoang, Nhat Hoang, Tran Thi Hoai Thu, Hoang Tien Trong Nghia and Jae Gwan Kim. "AttCORAL: Domain-Adaptive Attention Networks for Early Alzheimer’s 2 Disease Diagnosis"." IEEE Access, June 2025. https://doi.org/10.1109/ACCESS.2025.3580780 
+publication-placeholder-5. Gia Minh Hoang, Youngjoo Lee, Jae Gwan Kim. "Deep learning with guided attention for early diagnosis of Alzheimer’s disease." Physica Scripta, Apr 2025. https://doi.org/10.1088/1402-4896/add2a6 
+publication-placeholder-6. Gia Minh Hoang, Ue-Hwan Kim, Jae Gwan Kim. "Vision transformers for the prediction of mild cognitive impairment to Alzheimer’s disease progression using mid sagittal sMRI." Frontiers in Aging Neuroscience, Apr 2023. https://doi.org/10.3389/fnagi.2023.1102869 
+publication-placeholder-7. Mincheol Park*, Gia Minh Hoang*, Thien Nguyen, Eunkyung Lee, Hyun Jin Jung, Youngshik Choe, Moon Hwan Lee, Jae Youn Hwang, Jae Gwan Kim, Tae Kim. "Effects of transcranial ultrasound stimulation pulsed at 40 Hz on Aβ plaques and brain rhythms in 5× FA D mice ." Translational https://doi.org/10.1186/s40035-021-00274-x
 
-    Below is example (Dont copy same, should improve or revise)
-    
-    <h1>Gia Minh (Kevin) Hoang</h1>
-    <div class="bio">
-      <b>Research Fellow</b> at <i>Mayo Clinic - Scottsdale Campus</i> <br>
-      <span style="font-size:0.98em;">
-        <i>AI for medical imaging • Digital Twin For Organ Perfusion • Computer-aided diagnosis</i>
-      </span>
-      <br><br>
-      Welcome to my homepage! I work at the intersection of <b>AI</b> and <b>biomedical engineering</b>.<br>
-      Email: <b>giaminh.hoang1996@gmail.com • hoang.giaminh@mayo.edu</b>
-    </div>
-    <div class="icons">
-      <a href="mailto:hoang.giaminh@mayo.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=Lo1YsfcAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-      <a href="https://www.linkedin.com/in/minh-hoang-gia/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/giaminh9698" title="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/giaminhgist" title="GitHub"><i class="fab fa-github"></i></a>
-    </div>
-    <div class="self-intro">
-      I am interested in using artificial intelligence and computational methods to address critical challenges in the medical field, especially early disease classification and domain adaptation. I also have experience in medical system design using LABVIEW, including ultrasound stimulation systems and real-time multi-sensor data acquisition platforms.<br>
-      Key Interests: 
-      <br>
-      <li>Foundation models for medical image classification.</li>
-      <li>Vision-language models for medical report retrieval.</li>
-      <li>Domain adaptation across diverse medical cohorts.</li>
-      <li>Medical system design for real-time data acquisition and control.</li>
-      <li>Digital Twin for Organ Transplantation.</li>
-      <!-- Edit the above with your own words! -->
-    </div>
-    <hr>
+
