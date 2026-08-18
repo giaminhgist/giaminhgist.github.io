@@ -19,6 +19,7 @@ skills.py
 tasks.py 
 todos.py
 CLAUDE.md
+requirements.txt
 
 # Logs / temporary files
 *.log
