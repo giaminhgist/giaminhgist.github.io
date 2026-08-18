@@ -22,6 +22,9 @@ CLAUDE.md
 requirements.txt
 mcp_tools.py
 skills/
+.changes/
+.transcripts/
+.tasks/
 
 # Logs / temporary files
 *.log
