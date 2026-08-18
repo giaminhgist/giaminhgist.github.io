@@ -1,34 +1,17 @@
-    The About part in index.html should be revised so that it contain
-    Self Introduction and Contact Infor 
+- Update News with this detail
+      <li><b>June 2026:</b> Paper accepted in Aging Cell, Q1, IF = 7.1, ⭐<b>top 7% </b>⭐.</li>
+      <li><b>Dec 2025:</b> 2 poster papers accepted in Alzheimer's & Dementia, Q1, IF = 11.1, ⭐<b>top 2% </b>⭐.</li>
+      <li><b>Sep 2025:</b> Paper accepted to present in FLARE Challenge, <b>MICCAI 2025</b>.</li>
+      <li><b>Aug 2025:</b> I will join Mayo Clinic (<b>#1 hospital in the world</b>) - Scottsdale Campus in Arizona, US as Research Fellow.</li>
+      <li><b>Aug 2025:</b> Graduated - 3 years. Dr. Hoang now ^^!!!</li>
+      <li><b>June 2025:</b> Paper accepted in IEEE Access, Q2, IF = 3.4.</li>
+      <li><b>Apr 2025:</b> Paper accepted in Physica Scripta, Q2, IF = 2.9.</li>
+      <li><b>Nov 2022:</b> Paper accepted in Frontiers in Aging Neuroscience, Q1, IF = 4.80.</li>
+      <li><b>Feb 2022:</b> Joined <a href="https://bmse.gist.ac.kr/biophotonics/" target="_blank" style="color:#2566c5;text-decoration:underline;">TEDi Lab</a>, Gwangju Institute of Science and Technology, South Korea as Ph.D. Student, working with Prof. <a href="http://bmse.gist.ac.kr/prog/gsPerson/bmseeng/P/P0000339/sub03_01_01_01/view.do" target="_blank" style="color:#2566c5;text-decoration:underline;">Jae Gwan Kim</a>.</li>
+      <li><b>Dec 2021:</b> Paper accepted in Translational Neurodegeneration, Q1, IF = 15.2, ⭐<b>top 3%</b>⭐.</li>
+      <li><b>Aug 2021:</b> Graduated as Master of Science!!!</li>
+      <li><b>Aug 2019:</b> Joined <a href="https://bmse.gist.ac.kr/biophotonics/" target="_blank" style="color:#2566c5;text-decoration:underline;">TEDi Lab</a>, Gwangju Institute of Science and Technology, South Korea as Master Student, working with Prof. <a href="http://bmse.gist.ac.kr/prog/gsPerson/bmseeng/P/P0000339/sub03_01_01_01/view.do" target="_blank" style="color:#2566c5;text-decoration:underline;">Jae Gwan Kim</a> and Prof. <a href="http://bmse.gist.ac.kr/prog/gsPerson/bmseeng/P/P0000340/sub03_01_01_01/view.do" target="_blank" style="color:#2566c5;text-decoration:underline;">Tae Kim</a>.</li>
+      <!-- Add more news items as you wish --
 
-    Below is example (Dont copy same, should improve or revise)
-    
-    <h1>Gia Minh (Kevin) Hoang</h1>
-    <div class="bio">
-      <b>Research Fellow</b> at <i>Mayo Clinic - Scottsdale Campus</i> <br>
-      <span style="font-size:0.98em;">
-        <i>AI for medical imaging • Digital Twin For Organ Perfusion • Computer-aided diagnosis</i>
-      </span>
-      <br><br>
-      Welcome to my homepage! I work at the intersection of <b>AI</b> and <b>biomedical engineering</b>.<br>
-      Email: <b>giaminh.hoang1996@gmail.com • hoang.giaminh@mayo.edu</b>
-    </div>
-    <div class="icons">
-      <a href="mailto:hoang.giaminh@mayo.edu" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?user=Lo1YsfcAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-      <a href="https://www.linkedin.com/in/minh-hoang-gia/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/giaminh9698" title="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/giaminhgist" title="GitHub"><i class="fab fa-github"></i></a>
-    </div>
-    <div class="self-intro">
-      I am interested in using artificial intelligence and computational methods to address critical challenges in the medical field, especially early disease classification and domain adaptation. I also have experience in medical system design using LABVIEW, including ultrasound stimulation systems and real-time multi-sensor data acquisition platforms.<br>
-      Key Interests: 
-      <br>
-      <li>Foundation models for medical image classification.</li>
-      <li>Vision-language models for medical report retrieval.</li>
-      <li>Domain adaptation across diverse medical cohorts.</li>
-      <li>Medical system design for real-time data acquisition and control.</li>
-      <li>Digital Twin for Organ Transplantation.</li>
-      <!-- Edit the above with your own words! -->
-    </div>
-    <hr>
+- Make the contack is in one row only
+- Merge About and Self-introduction to 1 section

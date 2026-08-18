@@ -209,15 +209,22 @@ img {
   color: var(--color-text);
 }
 
-.interest-list,
-.contact-list {
+.interest-list {
   margin: 0;
   padding-left: 1.25rem;
 }
 
-.interest-list li,
-.contact-list li {
+.interest-list li {
   margin-bottom: 0.35rem;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
 }
 
 /* ---- News ---- */
