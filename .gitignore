@@ -1,0 +1,40 @@
+# Ignore all uv / Python virtual environments
+.venv/
+venv/
+*/.venv/
+*/venv/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+#Agent file 
+agent.py 
+context.py 
+skills.py 
+tasks.py 
+todos.py
+CLAUDE.md
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+# Build
+build/
+dist/
+*.egg-info/
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
