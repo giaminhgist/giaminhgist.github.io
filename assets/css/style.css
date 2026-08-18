@@ -173,6 +173,53 @@ img {
   border-radius: 4px;
 }
 
+.about__name {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  line-height: 1.25;
+  margin: 0 0 0.35rem;
+  color: var(--color-text);
+}
+
+.about__role {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.about__affiliation {
+  font-style: italic;
+}
+
+.about__tagline {
+  margin: 0 0 1rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 0.98rem;
+}
+
+.about__welcome {
+  margin: 0;
+}
+
+.section h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  margin: 1.25rem 0 0.5rem;
+  color: var(--color-text);
+}
+
+.interest-list,
+.contact-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.interest-list li,
+.contact-list li {
+  margin-bottom: 0.35rem;
+}
+
 /* ---- News ---- */
 .news-list {
   list-style: none;
