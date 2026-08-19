@@ -1,6 +1,6 @@
 
 Publications
-1.	Le Tuan-Anh, Alabay Husnu Halid, Sivarasa Anika, Gia-Minh Hoang , Ceylan Hakan, "Human-Scale Rotating Magnetic Field Delivery With Permanent Magnets Under Anatomic and Robotic Constraints.", Advanced Robotics Research, Aug 2026. https://doi.org/10.1002/adrr.70154 
+1.	Le Tuan-Anh, Alabay Husnu Halid, Sivarasa Anika, Gia-Minh Hoang , Ceylan Hakan. "Human-Scale Rotating Magnetic Field Delivery With Permanent Magnets Under Anatomic and Robotic Constraints.", Advanced Robotics Research, Aug 2026. https://doi.org/10.1002/adrr.70154 
 Image ID: 70154
 2.	Tam Dao* , Thanh T. Nguyen* , Gia Minh Hoang*, Junhyeon Park, Yunju Jo, Thach Hoang Ngoc, Diep Hong Pho, Dien Tran Minh, Emma Anh Ton, Sunjae Lee, Hyun Jin Kim, Vu Chi Dung, Jae Gwan Kim, Dongryeol Ryu. "Nuclear enlargement as a histological hallmark of skeletal muscle aging, revealed by deep learning-driven analysis and validated in inflammatory myopathies.” Aging Cell, June 2026. https://doi.org/10.1111/acel.70577. 
 Image ID: 70577
