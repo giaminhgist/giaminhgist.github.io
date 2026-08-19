@@ -40,3 +40,6 @@ Thumbs.db
 #Python version
 .python-version
 pyproject.toml
+
+#Request files
+request.txt
