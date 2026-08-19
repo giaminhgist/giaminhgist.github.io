@@ -275,9 +275,15 @@ main {
   align-self: flex-start;
 }
 
+.pub-thumb a {
+  display: block;
+}
+
 .pub-thumb img {
+  display: block;
   width: 120px;
   height: 120px;
+  max-width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: var(--radius);
@@ -418,6 +424,11 @@ main {
 
   .pub-card {
     flex-direction: column;
+  }
+
+  .pub-thumb {
+    flex: 0 0 auto;
+    width: 100%;
   }
 
   .pub-thumb img {
