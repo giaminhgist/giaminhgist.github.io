@@ -18,6 +18,7 @@
   var SELF_NAMES = [
     'Gia Minh Hoang',
     'Gia-Minh Hoang',
+    'Hoang Gia-Minh',
     'Hoang Gia Minh',
     'Minh Gia Hoang',
     'GM Hoang',
@@ -28,6 +29,7 @@
   // New publications: add their image file and map its ID here (or the site
   // falls back to the placeholder image automatically).
   var PUB_IMAGES = {
+    '70154':'70154.jpg',
     '70577': '70577.jpg',
     '101596': '101596.jpg',
     '101859': '101859.jpg',
