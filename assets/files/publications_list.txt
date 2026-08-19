@@ -1,19 +1,20 @@
 
 Publications
-1.	Tam Dao* , Thanh T. Nguyen* , Gia Minh Hoang*, Junhyeon Park, Yunju Jo, Thach Hoang Ngoc, Diep Hong Pho, Dien Tran Minh, Emma Anh Ton, Sunjae Lee, Hyun Jin Kim, Vu Chi Dung, Jae Gwan Kim, Dongryeol Ryu. "Nuclear enlargement as a histological hallmark of skeletal muscle aging, revealed by deep learning-driven analysis and validated in inflammatory myopathies.” Aging Cell, June 2026. https://doi.org/10.1111/acel.70577. 
+1.	Le Tuan-Anh, Alabay Husnu Halid, Sivarasa Anika, Gia-Minh Hoang , Ceylan Hakan, Human-Scale Rotating Magnetic Field Delivery With Permanent Magnets Under Anatomic and Robotic Constraints, Advanced Robotics Research 2026, 0, e70154. https://doi.org/10.1002/adrr.70154 
+Image ID: 70154
+2.	Tam Dao* , Thanh T. Nguyen* , Gia Minh Hoang*, Junhyeon Park, Yunju Jo, Thach Hoang Ngoc, Diep Hong Pho, Dien Tran Minh, Emma Anh Ton, Sunjae Lee, Hyun Jin Kim, Vu Chi Dung, Jae Gwan Kim, Dongryeol Ryu. "Nuclear enlargement as a histological hallmark of skeletal muscle aging, revealed by deep learning-driven analysis and validated in inflammatory myopathies.” Aging Cell, June 2026. https://doi.org/10.1111/acel.70577. 
 Image ID: 70577
-2.	Gia Minh Hoang and Jae Gwan Kim. "High‐generalizability Deep Learning Framework for Early Detection of Mild Cognitive Impairment Progression to Alzheimer's Disease." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101596 
+3.	Gia Minh Hoang and Jae Gwan Kim. "High‐generalizability Deep Learning Framework for Early Detection of Mild Cognitive Impairment Progression to Alzheimer's Disease." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101596 
 Image ID: 101596
-3.	Gia Minh Hoang and Jae Gwan Kim. "Explainable Deep Learning for Multi-Cohort Alzheimer's Disease Classification using MRI: Insights into Pathological Brain Regions." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101859 
+4.	Gia Minh Hoang and Jae Gwan Kim. "Explainable Deep Learning for Multi-Cohort Alzheimer's Disease Classification using MRI: Insights into Pathological Brain Regions." Alzheimer's & Dementia Dec 2025. https://doi.org/10.1002/alz70856_101859 
 Image ID: 101859
-4.	Gia Minh Hoang, Nhat Hoang, Tran Thi Hoai Thu, Hoang Tien Trong Nghia and Jae Gwan Kim. "AttCORAL: Domain-Adaptive Attention Networks for Early Alzheimer’s 3 Disease Diagnosis"." IEEE Access, June 2025. https://doi.org/10.1109/ACCESS.2025.3580780 
+5.	Gia Minh Hoang, Nhat Hoang, Tran Thi Hoai Thu, Hoang Tien Trong Nghia and Jae Gwan Kim. "AttCORAL: Domain-Adaptive Attention Networks for Early Alzheimer’s 3 Disease Diagnosis"." IEEE Access, June 2025. https://doi.org/10.1109/ACCESS.2025.3580780 
 Image ID: 3580780
-5.	Gia Minh Hoang, Youngjoo Lee, Jae Gwan Kim. "Deep learning with guided attention for early diagnosis of Alzheimer’s disease." Physica Scripta, Apr 2025. https://doi.org/10.1088/1402-4896/add2a6  
+6.	Gia Minh Hoang, Youngjoo Lee, Jae Gwan Kim. "Deep learning with guided attention for early diagnosis of Alzheimer’s disease." Physica Scripta, Apr 2025. https://doi.org/10.1088/1402-4896/add2a6  
 Image ID: add2a6
-6.	Le Thien Phuc Nguyen* , Thien Nguyen* , Thanh-Huy Nguyen, Gia Minh Hoang, Anh Mai Vu, Ulas Bagci. "QwenVLConnector: A Fast, Unified Medical VLM Chatbot for Fine-Grained Clinical Perception and Text Generation." MICCAI 2025, FLARE Challenge. Sep 2025. https://openreview.net/forum?id=FZZyXegzeQ 
+7.	Le Thien Phuc Nguyen* , Thien Nguyen* , Thanh-Huy Nguyen, Gia Minh Hoang, Anh Mai Vu, Ulas Bagci. "QwenVLConnector: A Fast, Unified Medical VLM Chatbot for Fine-Grained Clinical Perception and Text Generation." MICCAI 2025, FLARE Challenge. Sep 2025. https://openreview.net/forum?id=FZZyXegzeQ 
 Image ID: FZZyXegzeQ
-7.	Gia Minh Hoang, Ue-Hwan Kim, Jae Gwan Kim. "Vision transformers for the prediction of mild cognitive impairment to Alzheimer’s disease progression using midsagittal sMRI." Frontiers in Aging Neuroscience, Apr 2023. https://doi.org/10.3389/fnagi.2023.1102869 
+8.	Gia Minh Hoang, Ue-Hwan Kim, Jae Gwan Kim. "Vision transformers for the prediction of mild cognitive impairment to Alzheimer’s disease progression using midsagittal sMRI." Frontiers in Aging Neuroscience, Apr 2023. https://doi.org/10.3389/fnagi.2023.1102869 
 Image ID: 1102869
-8.	Mincheol Park* , Gia Minh Hoang* , Thien Nguyen, Eunkyung Lee, Hyun Jin Jung, Youngshik Choe, Moon Hwan Lee, Jae Youn Hwang, Jae Gwan Kim, Tae Kim. "Effects of transcranial ultrasound stimulation pulsed at 40 Hz on Aβ plaques and brain rhythms in 5× FAD mice." Translational Neurodegeneration, Dec 2021. https://doi.org/10.1186/s40035-021-00274-x
-	Image ID: 00274
-
+9.	Mincheol Park* , Gia Minh Hoang* , Thien Nguyen, Eunkyung Lee, Hyun Jin Jung, Youngshik Choe, Moon Hwan Lee, Jae Youn Hwang, Jae Gwan Kim, Tae Kim. "Effects of transcranial ultrasound stimulation pulsed at 40 Hz on Aβ plaques and brain rhythms in 5× FAD mice." Translational Neurodegeneration, Dec 2021. https://doi.org/10.1186/s40035-021-00274-x
+Image ID: 00274
