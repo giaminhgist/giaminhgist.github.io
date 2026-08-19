@@ -18,6 +18,7 @@ skills/
 .changes/
 .transcripts/
 .tasks/
+.task_outputs/
 src/
 # Logs / temporary files
 *.log
@@ -37,10 +38,6 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
-
-#Python version
-.python-version
-pyproject.toml
 
 #Request files
 request.txt
