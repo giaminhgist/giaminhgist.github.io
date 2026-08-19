@@ -38,9 +38,5 @@ dist/
 .DS_Store
 Thumbs.db
 
-#Python version
-.python-version
-pyproject.toml
-
 #Request files
 request.txt
