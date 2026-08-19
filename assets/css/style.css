@@ -1,0 +1,372 @@
+/* ==========================================================================
+   Gia Minh Hoang — Personal Academic Website
+   Shared stylesheet. Edit colors/typography here to restyle the whole site.
+   ========================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --surface: #f5f7fa;
+  --text: #1f2937;
+  --text-muted: #5b6472;
+  --accent: #2566c5;
+  --accent-strong: #1a4f9e;
+  --border: #e2e6ec;
+  --max-width: 1024px;
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+ul {
+  margin: 0 0 1em;
+  padding-left: 1.25em;
+}
+
+/* ---------- Header / navigation ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.site-nav a {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav a.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ---------- Layout ---------- */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+/* ---------- Hero (About) ---------- */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.hero-content {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.hero-content .lead {
+  font-size: 1.15rem;
+}
+
+.hero-photo {
+  flex: 0 0 240px;
+}
+
+.hero-photo img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.contact-line {
+  margin: 0.25rem 0 1rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- Cards / lists ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.entry .title {
+  font-weight: 600;
+}
+
+.entry .description {
+  margin: 0.25rem 0;
+  color: var(--text-muted);
+}
+
+.news-list li {
+  margin-bottom: 0.5rem;
+}
+
+.news-list b {
+  color: var(--text);
+}
+
+/* ---------- Publications ---------- */
+.pub-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.pub-thumb {
+  flex: 0 0 120px;
+  align-self: flex-start;
+}
+
+.pub-thumb img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.02rem;
+  margin: 0 0 0.3rem;
+}
+
+.pub-authors {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.4rem;
+}
+
+.pub-authors b {
+  color: var(--text);
+}
+
+.pub-venue {
+  font-size: 0.9rem;
+  margin: 0 0 0.4rem;
+  color: var(--text);
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.pub-year {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+  background: #eaf1fb;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+}
+
+.pub-link {
+  font-size: 0.9rem;
+}
+
+#publications-loading,
+#publications-error {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+/* ---------- CV ---------- */
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--accent-strong);
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: var(--surface);
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+.btn.secondary:hover {
+  background: var(--border);
+}
+
+.cv-frame {
+  width: 100%;
+  height: 80vh;
+  min-height: 480px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.site-footer a {
+  color: var(--text-muted);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .nav-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-photo {
+    flex: 0 0 auto;
+    align-self: center;
+  }
+
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-thumb img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+  }
+}

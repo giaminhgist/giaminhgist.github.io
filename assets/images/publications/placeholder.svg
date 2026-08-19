@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Publication thumbnail placeholder">
+  <rect width="120" height="120" fill="#eef1f6"/>
+  <rect x="0.5" y="0.5" width="119" height="119" fill="none" stroke="#c9d2df"/>
+  <text x="60" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8891a0" text-anchor="middle">Publication</text>
+  <text x="60" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8891a0" text-anchor="middle">thumbnail</text>
+</svg>
